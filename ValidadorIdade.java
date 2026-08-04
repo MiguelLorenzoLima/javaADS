@@ -10,16 +10,13 @@ public class ValidadorIdade {
         Scanner numero = new Scanner (System.in);
 
 
-        System.out.println( "Digite a sua idade: ");
-        int idade = numero.nextInt();
-       
-        if(idade < 18){
-            System.out.println("Você é menor de idade");
-        }else if (idade >= 60){
-            System.out.println("Você é idoso");
-        }else{
-            System.out.println("Você está na flor da idade");
-            
+        System.out.println( "Digite um número: ");
+        int valor = numero.nextInt();
+
+        System.out.println();
+        for (int i = 1; i <=10; i++ ){
+            System.out.println( valor * i  );
+
         }
    
         numero.close();
