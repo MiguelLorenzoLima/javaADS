@@ -13,5 +13,6 @@ public class HelloWorld {
         } else {
             System.out.println("reprovado");
         }
+        entrada.close();
 }
 }
