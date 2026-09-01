@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ListaNomesPessoas {
+public class ListaProdutos {
 
     public static void main(String[] args) {
 
@@ -77,6 +77,5 @@ public class ListaNomesPessoas {
                 System.out.println("Digite um número válido");
                 scanner.nextLine();
             }
-        } while (numeroEscolhido != 5);
-    }
-}
+        }while (numeroEscolhido != 5); 
+}}

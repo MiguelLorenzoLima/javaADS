@@ -1,4 +1,3 @@
-package javaADS;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -24,7 +23,7 @@ public class ListaComprasComArray {
                 scanner.nextLine();
             } catch (InputMismatchException e) {
                 System.out.println("Opção inválida! Digite um número inteiro.\n\n");
-                scanner.nextLine(); 
+                scanner.nextLine();
                 continue;
             }
 
@@ -46,13 +45,13 @@ public class ListaComprasComArray {
                     }
                     break;
 
-                case 3:   //esta vazio
+                case 3: // esta vazio
                     if (lista.isEmpty()) {
                         System.out.println("Lista vazia.");
                     } else {
                         System.out.println("Produtos na lista:");
                         for (String produtos : lista) {
-                            System.out.println("- " + produtos );
+                            System.out.println("- " + produtos);
                         }
                     }
                     break;

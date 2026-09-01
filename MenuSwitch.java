@@ -1,4 +1,3 @@
-package javaADS;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,3 @@
-package javaADS;
 
 import java.util.Scanner;
 
